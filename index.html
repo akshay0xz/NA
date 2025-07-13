@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inspire24</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="news">
+    <h1>Inspire24</h1>
+    <div class="article">
+      <h2>5 Simple Habits That Make Life Beautiful</h2>
+      <p>1. Practice Gratitude Daily</p><br>
+      <p>2. Spend Time in Nature</p><br>
+      <p>3. Listen Fully</p><br>
+      <p>4. Declutter Regularly</p><br>
+      <p>5. Smile at Strangers</p>
+    </div>
+    <div class="article">
+      <h2>Love Is In The Details</h2>
+      <ol>
+        <li>Rehana ka drama</li>
+        <li>mixedprism</li>
+      </ol>
+    </div>
+  </div>
+
+  <div id="chat-panel">
+    <div id="chat-screen">
+      <div class="chat-header">
+        <span>Secret Chat - NA0041</span>
+        <button id="panic">Safe Mode</button>
+      </div>
+      <div id="chat-box"></div>
+      <div class="chat-input">
+        <input type="text" id="message" placeholder="Type a message..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
